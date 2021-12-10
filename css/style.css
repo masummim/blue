@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+header{
+	background-color: #121B2A;
+	padding: 5px 0;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+.logo{
+	float: left;
+	width: 15%;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 75%;
+	margin-top: 30px;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	display: block;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 5px 34px;
+    color: white;
+    transition: .6s;
+    display: block;
+}
+.menu ul li a:hover{
+    color: #0177BB;
+
+}
+.menu ul li: a last-child{
+	padding-right: 0;
+}
+.banner{
+	background-image: url(../images/banner1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.banner-content{
+	margin-top: 200px;
+	margin-bottom: 50px;
+	width: 40%;
+}
+.banner-content p:first-child{
+	color: white;
+    font-size: 31px;
+}
+.banner-content h1{
+	color: #08079D;
+    font-size: 42px;
+    font-family: sans-serif;
+}
+.banner-content p:nth-last-child(2){
+    color: white;
+    font-size: 20px;
+    line-height: 32px;
+}
+.banner-content button{
+	margin: 19px 0 0;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    text-transform: uppercase;
+}
+.banner-content button span{
+	margin: 0 18px;
+    margin-right: 0;
+}
+.service{
+	background-color: #121B2C;
+    padding: 49px 0;
+}
+.single{
+	border-right: 1px solid white;
+    width: 30%;
+    padding: 17px 11px;
+    float: left;
+}
+.single:last-child{
+	border-right: 0;
+}
+.tittle{
+	overflow: hidden;
+}
+.icon{
+	width: 25%;
+	float: left;
+}
+.icon img{
+    width: 100%;
+}
+.icon-content{
+    width: 75%;
+    float: left;
+    margin: 24px 0;
+}
+.icon-content h1{
+	color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.icon-content h2{
+	color: #0074B8;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.content{}
+.content p{
+	color: #e9d2d2;
+    font-family: sans-serif;
+    text-align: left;
+}
+.service2{
+	background-color: #2E495E;
+}
+.wrapper1{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.about{
+	width: 30%;
+    float: left;
+    margin: 0 11px;
+}
+.about-us{}
+.about-us h1{
+	color: white;
+    font-size: 29px;
+    margin-bottom: 12px;
+    padding-top: 12px;
+}
+.about-us h1 span{
+	color: #0076BA;
+}
+.about-us h2{
+	color: wheat;
+    margin: 11px 0px;
+}
+.about-p{}
+.about-p p{
+	line-height: 23px;
+}
+.about-us1{}
+.about-us1 h1{
+	color: white;
+    margin: 14px 0;
+    font-size: 28px;
+}
+.about-us1 h1 span{
+    color: #1f1f98;
+}
+.about-p1{}
+.about-p1 p{
+	line-height: 19px;
+}
+.about-p1 h2{
+	color: white;
+    padding: 7px 0;
+}
+
+
+
+
+
+
+
+
+
+
